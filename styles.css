@@ -37,12 +37,13 @@ body {
     --y: 50;
     position: absolute;
     background-color: white;
-    width: 2.5vh;
-    height: 2.5vh;
+    width: 5.5vh;
+    height: 5.5vh;
     transform: translate(-50%, -50%);
     left: calc(var(--x) * 1vw);
     top: calc(var(--y) * 1vh);
     border-radius: 75%;
+    overflow: hidden;
 }
 
 .score {
@@ -59,4 +60,8 @@ body {
 }
 .score > :first-child {
     text-align: right;
+}
+img {
+    width:54px; /* you can use % */
+    height: auto;
 }
